@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Lycée d'Excellence de Dakar</title>
+	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
+	<link rel="icon" href="assets/img/icon.ico" type="image/x-icon"/>
+
+	<!-- Fonts and icons -->
+	<script src="assets/js/plugin/webfont/webfont.min.js"></script>
+	<script>
+		WebFont.load({
+			google: {"families":["Lato:300,400,700,900"]},
+			custom: {"families":["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"], urls: ['assets/css/fonts.min.css']},
+			active: function() {
+				sessionStorage.fonts = true;
+			}
+		});
+	</script>
+
+	<!-- CSS Files -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/atlantis.min.css">
+
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link rel="stylesheet" href="assets/css/demo.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="main-header">
+			<!-- Logo Header -->
+			<div class="logo-header" data-background-color="blue">
+				
+				<a href="index.html" class="logo">
+					<img src="assets/img/logo.svg" alt="navbar brand" class="navbar-brand">
+				</a>
+				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+						<i class="icon-menu"></i>
+					</span>
+				</button>
+				<button class="topbar-toggler more"><i class="icon-options-vertical"></i></button>
+				<div class="nav-toggle">
+					<button class="btn btn-toggle toggle-sidebar">
+						<i class="icon-menu"></i>
+					</button>
+				</div>
+			</div>
+			<!-- End Logo Header -->
+
+			<!-- Navbar Header -->
+			<nav class="navbar navbar-header navbar-expand-lg" data-background-color="blue2">
+				
+				<div class="container-fluid">
+					<div class="collapse" id="search-nav">
+						<form class="navbar-left navbar-form nav-search mr-md-3">
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<button type="submit" class="btn btn-search pr-1">
+										<i class="fa fa-search search-icon"></i>
+									</button>
+								</div>
+								<input type="text" placeholder="Search ..." class="form-control">
+							</div>
+						</form>
+					</div>
+					<ul class="navbar-nav topbar-nav ml-md-auto align-items-center">
+						<li class="nav-item toggle-nav-search hidden-caret">
+							<a class="nav-link" data-toggle="collapse" href="#search-nav" role="button" aria-expanded="false" aria-controls="search-nav">
+								<i class="fa fa-search"></i>
+							</a>
+						</li>
+						<li class="nav-item dropdown hidden-caret">
+							<a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="fa fa-envelope"></i>
+							</a>
+							<ul class="dropdown-menu messages-notif-box animated fadeIn" aria-labelledby="messageDropdown">
+								<li>
+									<div class="dropdown-title d-flex justify-content-between align-items-center">
+										 									
+										
+									</div>
+								</li>
+								<li>
+									<div class="message-notif-scroll scrollbar-outer">
+										<div class="notif-center">
+											
+										</div>
+									</div>
+								</li>
+								<li>
+									<a class="see-all" href="javascript:void(0);">Voir tous les messages<i class="fa fa-angle-right"></i> </a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown hidden-caret">
+							<a class="nav-link dropdown-toggle" href="#" id="notifDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="fa fa-bell"></i>
+								<span class="notification">4</span>
+							</a>
+							<ul class="dropdown-menu notif-box animated fadeIn" aria-labelledby="notifDropdown">
+								<li>
+									<div class="dropdown-title">Vous avez des  notifications</div>
+								</li>
+								<li>
+									<div class="notif-scroll scrollbar-outer">
+										<div class="notif-center">
+											
+										</div>
+									</div>
+								</li>
+								<li>
+									<a class="see-all" href="javascript:void(0);">Voir toutes les  notifications<i class="fa fa-angle-right"></i> </a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown hidden-caret">
+							<a class="nav-link" data-toggle="dropdown" href="#" aria-expanded="false">
+								<i class="fas fa-layer-group"></i>
+							</a>
+							<div class="dropdown-menu quick-actions quick-actions-info animated fadeIn">
+								<div class="quick-actions-header">
+									<span class="title mb-1">Actions</span>
+									<span class="subtitle op-8"></span>
+								</div>
+								<div class="quick-actions-scroll scrollbar-outer">
+									<div class="quick-actions-items">
+										<div class="row m-0">
+											<a class="col-6 col-md-4 p-0" href="#">
+												<div class="quick-actions-item">
+													<i class="flaticon-file-1"></i>
+													<span class="text">Generated Report</span>
+												</div>
+											</a>
+											<a class="col-6 col-md-4 p-0" href="#">
+												<div class="quick-actions-item">
+													<i class="flaticon-database"></i>
+													<span class="text">Create New Database</span>
+												</div>
+											</a>
+											<a class="col-6 col-md-4 p-0" href="#">
+												<div class="quick-actions-item">
+													<i class="flaticon-pen"></i>
+													<span class="text">Create New Post</span>
+												</div>
+											</a>
+											<a class="col-6 col-md-4 p-0" href="#">
+												<div class="quick-actions-item">
+													<i class="flaticon-interface-1"></i>
+													<span class="text">Create New Task</span>
+												</div>
+											</a>
+											<a class="col-6 col-md-4 p-0" href="#">
+												<div class="quick-actions-item">
+													<i class="flaticon-list"></i>
+													<span class="text">Completed Tasks</span>
+												</div>
+											</a>
+											<a class="col-6 col-md-4 p-0" href="#">
+												<div class="quick-actions-item">
+													<i class="flaticon-file"></i>
+													<span class="text">Create New Invoice</span>
+												</div>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown hidden-caret">
+							<a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#" aria-expanded="false">
+								<div class="avatar-sm">
+									<img src="assets/img/profile1.jpg" alt="..." class="avatar-img rounded-circle">
+								</div>
+							</a>
+							<ul class="dropdown-menu dropdown-user animated fadeIn">
+								<div class="dropdown-user-scroll scrollbar-outer">
+									
+								</div>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<!-- End Navbar -->
+		</div>
+
+		<!-- Sidebar -->
+		<div class="sidebar sidebar-style-2">			
+			<div class="sidebar-wrapper scrollbar scrollbar-inner">
+				<div class="sidebar-content">
+					<div class="user">
+						<div class="avatar-sm float-left mr-2">
+							<img src="assets/img/profile1.jpg" alt="..." class="avatar-img rounded-circle">
+						</div>
+						<div class="info">
+							<a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
+								<span>
+									Matar Seck
+									<span class="user-level">Administrateur</span>
+									<span class="caret"></span>
+								</span>
+							</a>
+							<div class="clearfix"></div>
+
+							<div class="collapse in" id="collapseExample">
+								<ul class="nav">
+									<li>
+										<a href="#profile">
+											<span class="link-collapse">Mon profile</span>
+										</a>
+									</li>
+									<li>
+										<a href="#edit">
+											<span class="link-collapse">Modifier Profile</span>
+										</a>
+									</li>
+									<li>
+										<a href="#settings">
+											<span class="link-collapse">Paramètres</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<ul class="nav nav-primary">
+						<li class="nav-item active">
+							<a data-toggle="collapse" href="#dashboard" class="collapsed" aria-expanded="false">
+								<i class="fas fa-home"></i>
+								<p>Menu</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="dashboard">
+								<ul class="nav nav-collapse">
+									<li>
+										<a href="../demo1/index.html">
+											<span class="sub-item">Accueil</span>
+										</a>
+									</li>
+									<li>
+										<a href="../demo2/index.html">
+											<span class="sub-item">Autres</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-section">
+							<span class="sidebar-mini-icon">
+								<i class="fa fa-ellipsis-h"></i>
+							</span>
+							<h4 class="text-section"></h4>
+						</li>
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#base">
+								<i class="fas fa-layer-group"></i>
+								<p>Accueil</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="base">
+								<ul class="nav nav-collapse">
+									
+								</ul>
+							</div>
+						</li>
+						
+						<li class="nav-item">
+							<a data-toggle="collapse" href="#base">
+								<i class="fas fa-layer-group"></i>
+								<p>A Propos</p>
+								<span class="caret"></span>
+							</a>
+							<div class="collapse" id="base">
+								<ul class="nav nav-collapse">
+									
+								</ul>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End Sidebar -->
+
+		<div class="main-panel">
+			<div class="content">
+				<div class="panel-header bg-primary-gradient">
+					<div class="page-inner py-5">
+						<div class="d-flex align-items-left align-items-md-center flex-column flex-md-row">
+							<div>
+								<h2 class="text-white pb-2 fw-bold">Lycée d’Excellence de Dakar</h2>
+								<h5 class="text-white op-7 mb-2">Plateforme de gestion de l'école</h5>
+							</div>
+						
+						</div>
+					</div>
+				</div>
+				<div class="page-inner mt--5">
+					<div class="row mt--2">
+						<div class="col-md-6">
+							<div class="card full-height">
+								<div class="card-body">
+									<div class="card-title">Classes <button id="b_ajouter_classe" class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#addClassModal">
+											<i class="fa fa-plus"></i>
+											Ajouter une classe
+										</button>
+										</div>
+									<div class="card-title">Liste de toutes les classes</div>
+									
+									
+									<table id="classe_tables" class="display table table-striped table-hover" >
+											<thead>
+												<tr>
+													<th>Nom de la classe</th>
+													<th>Série</th>
+													<th>Action</th>
+												</tr>
+											</thead>
+											<tfoot>
+												<tr>
+													<th>Nom de la classe</th>
+													<th>Série</th>
+												</tr>
+											</tfoot>
+											<tbody>
+												
+												
+											</tbody>
+										</table>
+									
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="card full-height">
+								<div class="card-body">
+									
+									<div class="card-title">Eleves <button id="b_ajouter_eleve" class="btn btn-primary btn-round ml-auto" data-toggle="modal" data-target="#addEleveModal">
+											<i class="fa fa-plus"></i>
+											Ajouter une nouvelle eleve
+										</button>
+										<div class="card-title">Liste des éléves </div>
+									</div>
+									<div class="row py-3">
+									<table id="eleves_tables" class="display table table-striped table-hover" >
+											<thead>
+												<tr>
+													<th>Nom</th>
+													<th>Prénom</th>
+													<th>Classe</th>
+													<th>Sexe</th>
+													<th>Action</th>
+												</tr>
+											</thead>
+											<tfoot>
+												<tr>
+													<th>Nom</th>
+													<th>Prénom</th>
+													<th>Classe</th>
+													<th>Sexe</th>
+													<th>Action</th>
+												</tr>
+											</tfoot>
+											<tbody>
+												
+												
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						
+					</div>
+					
+					
+					
+			</div>
+			<footer class="footer">
+				<div class="container-fluid">
+					<nav class="pull-left">
+						<ul class="nav">
+							<li class="nav-item">
+								<a class="nav-link" href="">
+									Matar Seck &copy
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Help
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">
+									Licenses
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="copyright ml-auto">
+						2019, made with <i class="fa fa-heart heart text-danger"></i> by <a href="">Matar Seck </a>
+					</div>				
+				</div>
+			</footer>
+		</div>
+		
+		<!-- Custom template | don't include it in your project! -->
+		<div class="custom-template">
+			<div class="title">Settings</div>
+			<div class="custom-content">
+				<div class="switcher">
+					<div class="switch-block">
+						<h4>Logo Header</h4>
+						<div class="btnSwitch">
+							<button type="button" class="changeLogoHeaderColor" data-color="dark"></button>
+							<button type="button" class="selected changeLogoHeaderColor" data-color="blue"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="purple"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="light-blue"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="green"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="orange"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="red"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="white"></button>
+							<br/>
+							<button type="button" class="changeLogoHeaderColor" data-color="dark2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="blue2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="purple2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="light-blue2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="green2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="orange2"></button>
+							<button type="button" class="changeLogoHeaderColor" data-color="red2"></button>
+						</div>
+					</div>
+					<div class="switch-block">
+						<h4>Navbar Header</h4>
+						<div class="btnSwitch">
+							<button type="button" class="changeTopBarColor" data-color="dark"></button>
+							<button type="button" class="changeTopBarColor" data-color="blue"></button>
+							<button type="button" class="changeTopBarColor" data-color="purple"></button>
+							<button type="button" class="changeTopBarColor" data-color="light-blue"></button>
+							<button type="button" class="changeTopBarColor" data-color="green"></button>
+							<button type="button" class="changeTopBarColor" data-color="orange"></button>
+							<button type="button" class="changeTopBarColor" data-color="red"></button>
+							<button type="button" class="changeTopBarColor" data-color="white"></button>
+							<br/>
+							<button type="button" class="changeTopBarColor" data-color="dark2"></button>
+							<button type="button" class="selected changeTopBarColor" data-color="blue2"></button>
+							<button type="button" class="changeTopBarColor" data-color="purple2"></button>
+							<button type="button" class="changeTopBarColor" data-color="light-blue2"></button>
+							<button type="button" class="changeTopBarColor" data-color="green2"></button>
+							<button type="button" class="changeTopBarColor" data-color="orange2"></button>
+							<button type="button" class="changeTopBarColor" data-color="red2"></button>
+						</div>
+					</div>
+					<div class="switch-block">
+						<h4>Sidebar</h4>
+						<div class="btnSwitch">
+							<button type="button" class="selected changeSideBarColor" data-color="white"></button>
+							<button type="button" class="changeSideBarColor" data-color="dark"></button>
+							<button type="button" class="changeSideBarColor" data-color="dark2"></button>
+						</div>
+					</div>
+					<div class="switch-block">
+						<h4>Background</h4>
+						<div class="btnSwitch">
+							<button type="button" class="changeBackgroundColor" data-color="bg2"></button>
+							<button type="button" class="changeBackgroundColor selected" data-color="bg1"></button>
+							<button type="button" class="changeBackgroundColor" data-color="bg3"></button>
+							<button type="button" class="changeBackgroundColor" data-color="dark"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="custom-toggle">
+				<i class="flaticon-settings"></i>
+			</div>
+		</div>
+		<!-- End Custom template -->
+	</div>
+	<!--   Core JS Files   -->
+	<script src="assets/js/core/jquery.3.2.1.min.js"></script>
+	<script src="assets/js/core/popper.min.js"></script>
+	<script src="assets/js/core/bootstrap.min.js"></script>
+
+	<!-- jQuery UI -->
+	<script src="assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+	<script src="assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
+
+	<!-- jQuery Scrollbar -->
+	<script src="assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
+
+
+	<!-- Chart JS -->
+	<script src="assets/js/plugin/chart.js/chart.min.js"></script>
+
+	<!-- jQuery Sparkline -->
+	<script src="assets/js/plugin/jquery.sparkline/jquery.sparkline.min.js"></script>
+
+	<!-- Chart Circle -->
+	<script src="assets/js/plugin/chart-circle/circles.min.js"></script>
+
+	<!-- Datatables -->
+	<script src="assets/js/plugin/datatables/datatables.min.js"></script>
+
+	<!-- Bootstrap Notify -->
+	<script src="assets/js/plugin/bootstrap-notify/bootstrap-notify.min.js"></script>
+
+	<!-- jQuery Vector Maps -->
+	<script src="assets/js/plugin/jqvmap/jquery.vmap.min.js"></script>
+	<script src="assets/js/plugin/jqvmap/maps/jquery.vmap.world.js"></script>
+
+	<!-- Sweet Alert -->
+	<script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
+
+	<!-- Atlantis JS -->
+	
+
+	<!-- Atlantis DEMO methods, don't include it in your project! -->
+	<script src="assets/js/setting-demo.js"></script>
+	<script src="assets/js/demo.js"></script>
+	
+	
+	
+	<script >
+	var classe_table;
+	var classe_table=$('#classe_tables').DataTable({
+		 language: {
+            "url": "assets/i18n/datatable.json"
+        },
+		dom: 'Bfrtip',
+		buttons: [
+            {
+                extend: 'excel',
+                text: '<i data-toggle="tooltip" data-placement="left" title="exporter au format excel" class="fa fa-file-excel-o"></i>'
+            },
+            {
+                extend: 'print',
+                text: '<i data-toggle="tooltip" data-placement="left" title="imprimer" class="fa fa-print"></i>'
+            }
+        ],
+		ajax: {
+            "url":'traitement/classes.php'
+        },
+        columns: [
+            {"data": "Nom_cl"},
+            {"data": "Nom_Ser"},
+            {
+                "data": "",
+                "render": function (data) {
+                    return '<div style="font-size:10px;" align="center">'+
+                    '<button data-toggle="tooltip" data-placement="left" title="modifier" class="btn-warning modifier_class"><i class="fa fa-edit"></i></button>'+
+                    '&nbsp;<button data-toggle="tooltip" data-placement="left" title="supprimer" class="btn-danger supprimer_class"><i class="fa fa-trash"></i></button>';
+                }
+            }
+        ]
+			});
+
+			
+			
+			
+	var eleve_table=$('#eleves_tables').DataTable({
+			 language: {
+            "url": "assets/i18n/datatable.json"
+        },
+		dom: 'Bfrtip',
+		buttons: [
+            {
+                extend: 'excel',
+                text: '<i data-toggle="tooltip" data-placement="left" title="exporter au format excel" class="fa fa-file-excel-o"></i>'
+            },
+            {
+                extend: 'print',
+                text: '<i data-toggle="tooltip" data-placement="left" title="imprimer" class="fa fa-print"></i>'
+            }
+        ],
+		ajax: {
+            "url":'traitement/eleves.php'
+        },
+        columns: [
+            {"data": "Nom"},
+            {"data": "Prenom"},
+			{"data": "Nom_cl"},
+			{"data": "sexe"},
+            {
+                "data": "",
+                "render": function (data) {
+                    return '<div style="font-size:10px;" align="center">'+
+                    '<button data-toggle="tooltip" data-placement="left" title="modifier" class="btn-warning modifier_eleve"><i class="fa fa-edit"></i></button>'+
+                    '&nbsp;<button data-toggle="tooltip" data-placement="left" title="supprimer" class="btn-danger supprimer_eleve"><i class="fa fa-trash"></i></button>';
+                }
+            }
+        ]
+			});
+			
+			
+			
+
+
+// lorsque l'uitlisateur clique sur modifier classe
+    $('#classe_tables tbody').on('click',  '.modifier_class', function (e) {
+        e.preventDefault();
+		var data = classe_table.row($(this).parents('tr')).data();
+		console.log(data);
+		
+$(".modal-title").html('<span class="fw-mediumbold">Modification de la classe</span> <span class="fw-light"><b>'+data.Nom_cl+'</b></span>');
+$("#addClassModal").modal('show');
+
+$(".title_genereal").html('Modifier la série');
+
+$(".nom_classe").hide();
+$(".nom_ser").show();
+
+$(".modal-footer").html('<input type="button" value="Modifier" class="btn btn-primary" onclick="modifier_classe()"></input>'+
+'<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>');
+ 
+$("#Nom_cl").val(data.Nom_cl); 
+$("#Nom_cl").prop('type', 'hidden');
+$("#Nom_Ser").val(data.Nom_Ser); 
+	  
+	  
+      
+    });
+	
+	
+	// lorsque l'uitlisateur clique sur supprimer classe
+    $('#classe_tables tbody').on('click',  '.supprimer_class', function (e) {
+        e.preventDefault();
+		var data = classe_table.row($(this).parents('tr')).data();
+		console.log(data);
+		
+$(".modal-title").html('<span class="fw-mediumbold">suppression de la classe</span> <span class="fw-light"><b>'+data.Nom_cl+'</b></span>');
+$("#addClassModal").modal('show');
+
+
+$(".nom_classe").hide();
+$(".nom_ser").hide();
+
+$(".title_genereal").html('Voulez vous vraiment supprimer la classe <b>:'+data.Nom_cl+'</b>');
+
+$(".modal-footer").html('<input type="button" value="confimer" class="btn btn-primary" onclick="supprimer_classe(\''+data.Nom_cl+'\')"></input>'+
+'<button type="button" class="btn btn-danger" data-dismiss="modal">Annuler</button>');
+ 
+$("#Nom_cl").val(data.Nom_cl); 
+$("#Nom_cl").prop('type', 'hidden');
+$("#Nom_Ser").val(data.Nom_Ser); 
+	  
+	  
+      
+    });
+			
+		
+		
+	$("#b_ajouter_classe").on("click", function(e){ //user click on remove text
+       $(".modal-title").html('<span class="fw-mediumbold">Ajout d\'une nouvelle</span> <span class="fw-light">Classe</span>');
+		$(".nom_classe").show();
+		$("#Nom_cl").prop('type', 'text');
+		$("#Nom_cl").val('');
+		$("#Nom_Ser").val('Selectionner');
+		$(".nom_ser").show();
+		$(".title_genereal").html('Veuillez remplir le formulaire');
+		$(".modal-footer").html('<button type="button" id="addRowButton" class="btn btn-primary" onclick="ajouter_classe()">Ajouter</button><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>');
+		
+}) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	function ajouter_classe(){
+var s = $('#classes').serialize();
+//console.log(s);
+		var request_ajax_liste = $.ajax({
+		url: 'traitement/ajouter.php',
+		type: "POST",
+	    data:s,
+        cache: false,
+		success: result11,
+         dataType: "json"
+		});
+
+function result11(data)
+		   {
+		 classe_table.ajax.reload();
+		    $("#addClassModal").modal('hide');
+		   swal("Success!", "Vous venez d'ajouter une classe!", {
+						icon : "success",
+						buttons: {        			
+							confirm: {
+								className : 'btn btn-success'
+							}
+						},
+					});
+					
+				return {
+				//== Init
+				init: function() {
+					initDemos();
+				},
+			};
+		
+		
+		   }
+		   
+}	
+
+
+
+function modifier_classe(){
+var s = $('#classes').serialize();
+//console.log(s);
+		var request_ajax_liste = $.ajax({
+		url: 'traitement/modifier_classe.php',
+		type: "POST",
+	    data:s,
+        cache: false,
+		success: result11,
+         dataType: "json"
+		});
+
+function result11(data)
+		   {
+		 classe_table.ajax.reload();
+		    $("#addClassModal").modal('hide');
+		   swal("Success!", "Classe modifiée avec succés!", {
+						icon : "success",
+						buttons: {        			
+							confirm: {
+								className : 'btn btn-success'
+							}
+						},
+					});
+					
+				return {
+				//== Init
+				init: function() {
+					initDemos();
+				},
+			};
+		
+		
+		   }
+		   
+}	
+	
+	
+	
+	function supprimer_classe(classe){
+//var s = $('#classes').serialize();
+//console.log(s);
+		var request_ajax_liste = $.ajax({
+		url: 'traitement/supprimer_classe.php',
+		type: "POST",
+	    data:{classe:classe},
+        cache: false,
+		success: result11,
+         dataType: "json"
+		});
+
+function result11(data)
+		   {
+		 classe_table.ajax.reload();
+		    $("#addClassModal").modal('hide');
+		   swal("Success!", "La classe "+classe+" a été supprimée avec succés!", {
+						icon : "success",
+						buttons: {        			
+							confirm: {
+								className : 'btn btn-success'
+							}
+						},
+					});
+					
+				return {
+				//== Init
+				init: function() {
+					initDemos();
+				},
+			};
+		
+		
+		   }
+		   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	$("#b_ajouter_eleve").on("click", function(e){ //user click on remove text
+       $(".modal-title").html('<span class="fw-mediumbold">Ajout d\'un nouveau</span> <span class="fw-light">Eleve</span>');
+	  $(".title_genereal").html('Veuillez remplir le formulaire');
+	  $(".modal-footer").html('<button type="button" id="addRowButton" class="btn btn-primary" onclick="ajouter_eleve()">Ajouter</button><button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>');
+	  
+$("#id").val('');  
+$("#Prenom").val(''); 
+$("#Nom").val('');
+$("#Nom_cl_a").val('');
+$("#sexe").val('');
+	 
+}) 
+
+function ajouter_eleve(){
+var s = $('#eleves').serialize();
+//console.log(s);
+		var request_ajax_liste = $.ajax({
+		url: 'traitement/ajouter.php',
+		type: "POST",
+	    data:s,
+        cache: false,
+		success: result11,
+         dataType: "json"
+		});
+
+function result11(data)
+		   {
+		 eleve_table.ajax.reload();
+		    $("#addEleveModal").modal('hide');
+		   swal("Success!", "Vous venez d'ajouter une eleve!", {
+						icon : "success",
+						buttons: {        			
+							confirm: {
+								className : 'btn btn-success'
+							}
+						},
+					});
+					
+				return {
+				//== Init
+				init: function() {
+					initDemos();
+				},
+			};
+		
+		
+		   }
+		   
+}	
+
+
+function modifier_eleve(){
+var s = $('#eleves').serialize();
+//console.log(s);
+		var request_ajax_liste = $.ajax({
+		url: 'traitement/modifier_eleve.php',
+		type: "POST",
+	    data:s,
+        cache: false,
+		success: result11,
+         dataType: "json"
+		});
+
+function result11(data)
+		   {
+		eleve_table.ajax.reload();
+		    $("#addEleveModal").modal('hide');
+		   swal("Success!", "Les informations ont été modifées avec succés!", {
+						icon : "success",
+						buttons: {        			
+							confirm: {
+								className : 'btn btn-success'
+							}
+						},
+					});
+					
+				return {
+				//== Init
+				init: function() {
+					initDemos();
+				},
+			};
+		
+		
+		   }
+		   
+}	
+	
+
+	
+
+function supprimer_eleve(id,Prenom,Nom){
+//var s = $('#classes').serialize();
+//console.log(s);
+		var request_ajax_liste = $.ajax({
+		url: 'traitement/supprimer_eleve.php',
+		type: "POST",
+	    data:{id:id,table:"eleves"},
+        cache: false,
+		success: result11,
+         dataType: "json"
+		});
+
+function result11(data)
+		   {
+		 eleve_table.ajax.reload();
+		    $("#Sup_eleve").modal('hide');
+		   swal("Success!", "L\'eleve "+Prenom+" "+Nom+" a été supprimé avec succés!", {
+						icon : "success",
+						buttons: {        			
+							confirm: {
+								className : 'btn btn-success'
+							}
+						},
+					});
+					
+				return {
+				//== Init
+				init: function() {
+					initDemos();
+				},
+			};
+		
+		
+		   }
+		   
+}	
+
+
+// lorsque l'uitlisateur clique sur modifier eleve
+    $('#eleves_tables tbody').on('click',  '.modifier_eleve', function (e) {
+        e.preventDefault();
+		var data = eleve_table.row($(this).parents('tr')).data();
+		console.log(data);
+		
+$(".modal-title").html('<span class="fw-mediumbold">Modification des informations de l\'eleve</span> <span class="fw-light"><b>'+data.Prenom+' '+data.Nom+'</b></span>');
+$("#addEleveModal").modal('show');
+
+$(".title_genereal").html('Modifier informations');
+
+$(".modal-footer").html('<input type="button" value="Modifier" class="btn btn-primary" onclick="modifier_eleve()"></input>'+
+'<button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>');
+ 
+$("#id").val(data.id);  
+$("#Prenom").val(data.Prenom); 
+$("#Nom").val(data.Nom);
+$("#Nom_cl_a").val(data.Nom_cl);
+$("#sexe").val(data.sexe);
+	  
+	  
+      
+    });
+
+
+
+// lorsque l'uitlisateur clique sur supprimer eleve
+    $('#eleves_tables tbody').on('click',  '.supprimer_eleve', function (e) {
+        e.preventDefault();
+		var data = eleve_table.row($(this).parents('tr')).data();
+		console.log(data);
+		
+$(".modal-title").html('<span class="fw-mediumbold">suppression de l\'eleve</span> <span class="fw-light"><b>'+data.id+' '+data.Prenom+' '+data.Nom+'</b></span>');
+$("#Sup_eleve").modal('show');
+
+
+$(".title_genereal").html('Voulez vous vraiment supprimer l\'eleve <b>:'+data.id+' '+data.Prenom+' '+data.Nom+'</b>');
+
+$(".modal-footer").html('<input type="button" value="confimer" class="btn btn-primary" onclick="supprimer_eleve(\''+data.id+'\',\''+data.Prenom+'\',\''+data.Nom+'\')"></input>'+
+'<button type="button" class="btn btn-danger" data-dismiss="modal">Annuler</button>');
+
+	  
+	  
+      
+    });
+
+
+
+
+
+
+
+
+
+function get_classe(){
+ $.ajax({
+           type: "POST",
+            url: "traitement/get_classe.php",
+			data:{type: "a"},
+            success: result11,
+            dataType: "json"
+            });
+
+			function result11(data){
+			
+			
+			   
+			
+			 $('#Nom_cl_a').empty();
+			  var toAppend='<option value="">Selectionner</option>';
+			 for (var k = 0; k<data.length;k++)
+			
+			    	 toAppend += '<option value="'+data[k].Nom_cl+'">'+data[k].Nom_cl+'</option>'; 
+				 
+				 $('#Nom_cl_a').append(toAppend);
+				
+			 }//fin de la boucle
+			 
+			 }get_classe();
+			 
+			 
+	</script>
+	
+	
+	
+	
+	<!-- Formuaire new classe -->
+									<div class="modal fade" id="addClassModal" tabindex="-1" role="dialog" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header no-bd">
+													<h5 class="modal-title">
+														<span class="fw-mediumbold">
+														Nouvelle</span> 
+														<span class="fw-light">
+															Classe
+														</span>
+													</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<p class="small title_genereal">Veuillez remplir le formulaire</p>
+													<form id="classes">
+														<div class="row">
+															<div class="col-sm-12 nom_classe">
+																<div class="form-group form-group-default">
+																	<label>Nom classe</label>
+																	<input id="Nom_cl" name="Nom_cl" type="text" class="form-control" placeholder="Nom classe">
+																</div>
+															</div>
+															<div class="col-md-6 pr-0 nom_ser">
+																<div class="form-group form-group-default">
+																	<label>Série</label>
+																	<select id="Nom_Ser" name="Nom_Ser">
+																	<option>Selectionner</option>
+																	<option value="G">G</option>
+																	<option value="L1">L'</option>
+																	<option value="L2">L2</option>
+																	<option value="S1">S1</option>
+																	<option value="S2">S2</option>
+																	<option value="S3">S3</option>
+													
+																	</select>
+																	
+																</div>
+															</div>
+															
+														</div>
+														<input type="hidden" name="table" value='classes'>
+													</form>
+												</div>
+												<div class="modal-footer no-bd">
+													<button type="button" id="addRowButton" class="btn btn-primary" onclick="ajouter_classe()">Ajouter</button>
+													<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									
+									
+									
+									
+									<div class="modal fade" id="addEleveModal" tabindex="-1" role="dialog" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header no-bd">
+													<h5 class="modal-title">
+														<span class="fw-mediumbold">
+														Nouevel</span> 
+														<span class="fw-light">
+															éléve
+														</span>
+													</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<p class="small title_genereal">Veuillez remplir le formulaire</p>
+													<form id="eleves">
+														<div class="row">
+															<div class="col-sm-12 nom_classe">
+																<div class="form-group form-group-default">
+																	<label>Nom</label>
+																	<input id="Nom" name="Nom" type="text" class="form-control" placeholder="Nom éleve">
+																</div>
+															</div>
+														<div class="col-sm-12 nom_classe">
+																<div class="form-group form-group-default">
+																	<label>Prenom</label>
+																<input id="Prenom" name="Prenom" type="text" class="form-control" placeholder="Prenom éleve">
+																</div>
+															</div>
+															<div class="col-sm-12 nom_classe">
+																<div class="form-group form-group-default">
+																 <label>Sexe</label>
+																	<select id="sexe" name="sexe">
+																	<option>Masculin </option>
+																	<option>Feminin</option>
+																	</select>
+																</div>
+															</div>
+															<div class="col-md-6 pr-0 nom_ser">
+																<div class="form-group form-group-default">
+																	<label>Classe</label>
+																	<select id="Nom_cl_a" name="Nom_cl_a">
+																	<option>Selectionner</option>
+																	</select>
+																	
+																</div>
+															</div>
+															
+														</div>
+														<input type="hidden" name="table" value='eleves'>
+														<input type="hidden" name="id" id="id">
+													</form>
+												</div>
+												<div class="modal-footer no-bd">
+													<button type="button" id="addRowButton" class="btn btn-primary" onclick="ajouter_eleve()">Ajouter</button>
+													<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+									</div>
+	<div class="modal fade" id="Sup_eleve" tabindex="-1" role="dialog" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header no-bd">
+													<h5 class="modal-title">
+														<span class="fw-mediumbold">
+														Nouvelle</span> 
+														<span class="fw-light">
+															éléve
+														</span>
+													</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													<p class="small title_genereal">Veuillez remplir le formulaire</p>
+													<form id="_eleves">
+														
+													</form>
+												</div>
+												<div class="modal-footer no-bd">
+													<button type="button" id="addRowButton" class="btn btn-primary" onclick="ajouter_eleve()">Ajouter</button>
+													<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+									</div>
+	
+</body>
+</html>
