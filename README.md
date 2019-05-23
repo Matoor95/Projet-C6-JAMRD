@@ -4,4 +4,4 @@ PROJET POUR LA PREPARATION
 J’ai utilise php et javascript pour coder application et msql pour la base de données 
 Nom et prenom: matar seck
 mail:matseckserigne95@gmail.com
-specialite:de
+specialite:developpement web
